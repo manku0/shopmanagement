@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".MainActivity">
+
+   <FrameLayout
+       android:id="@+id/framelayout"
+       android:layout_width="match_parent"
+       android:layout_height="656dp"
+       android:layout_alignParentTop="true">
+      <RelativeLayout
+          android:id="@+id/cementtab"
+          android:layout_width="200dp"
+          android:layout_height="150dp"
+         android:layout_marginTop="60dp"
+          android:background="@drawable/tablback">
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="CEMENT'S"
+             android:textStyle="bold|italic"
+             android:textColor="@color/white"
+             android:gravity="center_horizontal"
+             android:layout_marginTop="1dp"
+             android:layout_marginLeft="20dp"
+             android:textSize="20dp"
+             android:padding="2dp"
+            />
+
+      </RelativeLayout>
+      <RelativeLayout
+          android:id="@+id/irontab"
+          android:layout_width="200dp"
+          android:layout_height="150dp"
+          android:layout_marginTop="60dp"
+          android:layout_marginLeft="210dp"
+          android:layout_marginRight="-10dp"
+         android:background="@drawable/tabback"
+          >
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="IRON PRODUCT"
+             android:textStyle="bold|italic"
+             android:textColor="@color/white"
+             android:gravity="center_horizontal"
+             android:layout_marginTop="1dp"
+             android:layout_marginLeft="20dp"
+             android:textSize="20dp"
+             android:padding="2dp"/>
+
+      </RelativeLayout>
+      <RelativeLayout
+          android:id="@+id/cementplates"
+          android:layout_width="200dp"
+          android:layout_height="150dp"
+          android:layout_marginTop="220dp"
+          android:background="@drawable/tablback">
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="ROOFTOP PLATES"
+             android:textStyle="bold|italic"
+             android:textColor="@color/white"
+             android:gravity="center_horizontal"
+             android:layout_marginTop="1dp"
+             android:layout_marginLeft="20dp"
+             android:textSize="20dp"
+             android:padding="2dp"
+             />
+      </RelativeLayout>
+      <RelativeLayout
+          android:id="@+id/pvcproducts"
+          android:layout_width="200dp"
+          android:layout_height="150dp"
+          android:layout_marginTop="220dp"
+          android:layout_marginLeft="210dp"
+          android:layout_marginRight="-10dp"
+          android:background="@drawable/tabback"
+          >
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="PVC PRODUCT"
+             android:textStyle="bold|italic"
+             android:textColor="@color/white"
+             android:gravity="center_horizontal"
+             android:layout_marginTop="1dp"
+             android:layout_marginLeft="20dp"
+             android:textSize="20dp"
+             android:padding="2dp"/>
+
+      </RelativeLayout>
+      <RelativeLayout
+          android:layout_width="200dp"
+          android:layout_height="150dp"
+         android:layout_marginTop="380dp"
+          android:background="@drawable/tablback">
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="MANAGE STORE"
+             android:textColor="@color/white"
+             android:textSize="20dp"
+             android:textStyle="italic|bold"
+             android:layout_marginLeft="35dp"
+             android:padding="1dp"/>
+
+      </RelativeLayout>
+      <RelativeLayout
+          android:layout_width="200dp"
+          android:layout_height="150dp"
+          android:layout_marginTop="380dp"
+          android:layout_marginLeft="210dp"
+          android:background="@drawable/tabback">
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+            android:text="WHEREHOUSE"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="italic|bold"
+            android:layout_marginLeft="40dp"
+            android:padding="1dp"/>
+
+      </RelativeLayout>
+
+   </FrameLayout>
+ <TextView
+     android:id="@+id/wlcmtxt"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:text="WELCOME"
+    android:textSize="20dp"
+     android:layout_centerHorizontal="true"
+    android:textStyle="bold|italic"
+    android:textColor="@color/white"/>
+</RelativeLayout>
